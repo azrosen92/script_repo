@@ -4,9 +4,11 @@ gem 'railties', '4.0'
 
 gem 'rails', '4.0'
 gem 'nokogiri'
+gem 'activerecord'
+gem 'figaro'
 
 group :development, :test do
-	gem 'sqlite3', '1.3.5'
+	gem 'sqlite3'
 	gem 'rspec-rails', '2.11.0'
 end
 
@@ -21,7 +23,7 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
-  gem 'uglifier', '>= 1.0.3'
+  gem 'uglifier', '1.2.3'
 end
 
 gem 'jquery-rails'
